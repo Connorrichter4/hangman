@@ -10,14 +10,14 @@
 	border: solid red;
 	height: 20vh;
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+	justify-content: space-between;
+	align-items: center;
 }
 .playerScore {
 	border: solid blue;
-    display: flex;
-    height: 20vh;
-	padding: 10px;
+	display: flex;
+	height: 20vh;
+	/* padding: 10px; */
 	align-items: center;
 }
 .score {
@@ -26,61 +26,61 @@
 }
 .blank-spaces {
 	border: solid greenyellow;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .unknown-letter {
-    border: solid green;
-    height: 40px;
-    width: 40px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	border: solid green;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid purple
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid purple;
 }
 .enter-word-form {
-    border: solid black;
-    padding: 10px;
-    text-align: center;
-    background: tan;
+	border: solid black;
+	padding: 10px;
+	text-align: center;
+	background: tan;
 }
-.player-input{
-    margin: 10px 0;
+.player-input {
+	margin: 10px 0;
 }
 .letter-spaces {
-    border: solid black;
-    margin: 0 auto;
-    height: 40vh;
-    width: 80vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+	border: solid black;
+	margin: 0 auto;
+	height: 40vh;
+	width: 80vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
 }
 .letter-button {
-    border: solid red;
-    margin: 5px;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	border: solid red;
+	margin: 5px;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 body {
 	margin: 0 auto;
 }
 .hidden {
-    display: none;
+	display: none;
 }
