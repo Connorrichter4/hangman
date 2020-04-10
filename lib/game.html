@@ -7,32 +7,30 @@
 		<title>Hangman Game</title>
 	</head>
 	<body>
-        <div class = modal>
-            <form class='enter-word-form'>
-                <div>Player One Enter Word</div>
-                <input type='text' class='player-input' placeholder="Enter One Word">
-                <button class='submit-button'>Submit</button>
-            </form>
-            <div class = 'winner-alert hidden'>
-                <div class='you-win'>You Win!</div>
-                <a class='play-again' href='game.html'>Play Again</a>
-            </div>
-        </div>
-            <header class='players'>
-                <div class='playerScore'>
-                    <p>Player One: </p>
-                    <p class='score one'>00</p>
-                </div>
-                <h1>Hangman</h1>
-                <div class='playerScore'>
-                    <p>Player Two: </p>
-                    <p class='score two'>00</p>
-                </div>
-            </header>
-            <section class='blank-spaces'>
-            </section>
-            <section class='letter-spaces'>
-            </section>
+		<div class="modal">
+			<form class="enter-word-form">
+				<div class='player-turn'>Player One Enter Word</div>
+				<input type="text" class="player-input" placeholder="Enter One Word" />
+				<button class="submit-button initiate-button">Submit</button>
+			</form>
+			<div class="winner-alert hidden">
+				<div class="you-win">You Win!</div>
+				<button class="next-player">Next Players Turn</button>
+			</div>
+		</div>
+		<header class="players">
+			<div class="playerScore">
+				<p>Player One:</p>
+				<p class="score one">00</p>
+			</div>
+			<h1>Hangman</h1>
+			<div class="playerScore">
+				<p>Player Two:</p>
+				<p class="score two">00</p>
+			</div>
+		</header>
+		<section class="blank-spaces"></section>
+		<section class="letter-spaces"></section>
 		<script src="script.js"></script>
 	</body>
 </html>
