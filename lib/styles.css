@@ -1,3 +1,11 @@
+/* color scheme
+#757780 - sonic silver
+#D2CCA1 - dark vanilla
+#387780 - ming
+#F6AE2D - Saffron
+#DBD4D3 - timberwolf
+*/
+
 .homepage {
 	width: 100vw;
 	height: 100vh;
@@ -7,31 +15,31 @@
 	align-items: center;
 }
 .players {
-	border: solid red;
+	background: #D2CCA1;
 	height: 20vh;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 10px;
+	font-size: 20px;
 }
 .playerScore {
-	border: solid blue;
 	display: flex;
 	height: 20vh;
 	align-items: center;
 }
 .score {
-	border: solid green;
 	padding: 5px;
 }
 .blank-spaces {
-	border: solid greenyellow;
 	height: 40vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .unknown-letter {
-	border: solid green;
+	border-bottom: solid #387780;
+	color: white;
 	height: 40px;
 	width: 40px;
 	margin: 5px;
@@ -48,62 +56,64 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: solid purple;
 }
 .enter-word-form {
-	border: solid black;
+	border-radius: 10px;
 	height: 50%;
 	width: 60%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: tan;
+	background: #DBD4D3;
 }
-.winner-alert {
-	border: solid black;
+.gameover-alert {
+	border-radius: 10px;
 	height: 50%;
 	width: 60%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: tan
+	background: #DBD4D3;
 }
-.play-again {
-	text-decoration: none;
-	color: white;
-	background: rgb(37, 37, 194);
+.player-turn {
+	font-size: 24px;
+}
+
+.gameover-text{
 	margin: 10px;
 	padding: 5px;
-}
-.you-win{
-	margin: 10px;
-	padding: 5px;
+	font-size: 24px;
 }
 .player-input {
 	margin: 10px 0;
+	font-size: 20px;
 }
 .letter-spaces {
-	border: solid black;
 	margin: 0 auto;
 	height: 40vh;
 	width: 80vw;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
+	justify-content: center;
 }
 .letter-button {
-	border: solid red;
+	background: #387780;
+	color: white;
+	border-radius: 10px;
 	margin: 5px;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 body {
 	margin: 0 auto;
+	background: #757780;
 }
 .hidden {
 	display: none;
