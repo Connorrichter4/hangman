@@ -9,14 +9,15 @@
 	<body>
 		<div class="modal">
 			<form class="enter-word-form">
-				<div class='player-turn'>Player One Enter Word</div>
+				<div class="player-turn">Player One Enter Word</div>
 				<input type="text" class="player-input" placeholder="Enter One Word" />
 				<button class="submit-button initiate-button">Submit</button>
 			</form>
 			<div class="gameover-alert hidden">
 				<div class="gameover-text"></div>
-				<button class="next-player">Next Players Turn</button>
-            </div>
+                <button class="next-player">Next Players Turn</button>
+                <button class='reset-button'>Reset</button>
+			</div>
 		</div>
 		<header class="players">
 			<div class="playerScore">
@@ -28,8 +29,15 @@
 				<p>Player Two:</p>
 				<p class="score two">00</p>
 			</div>
-        </header>
-        <div class='guess-remaining'></div>
+		</header>
+		<div class="guess-remaining"></div>
+		<div class="hangman-div">
+			<img
+				class="hangman-image"
+				src="images/hangman7.png"
+				alt="hangman initialize image"
+			/>
+		</div>
 		<section class="blank-spaces"></section>
 		<section class="letter-spaces"></section>
 		<script src="script.js"></script>

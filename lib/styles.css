@@ -14,6 +14,10 @@
 	justify-content: center;
 	align-items: center;
 }
+.title {
+	color: white;
+	letter-spacing: 2px;
+}
 .submit-button, .next-player {
 	font-size: 20px;
 	border-radius: 10px;
@@ -27,6 +31,17 @@
 	padding: 2px 15px;
 	background: #f6ae2d;
 	color: black;
+}
+.reset-button {
+	font-size: 20px;
+	border-radius: 10px;
+	background: #e05353;
+	margin: 10px;
+}
+.hangman-div {
+	margin: 5px;
+	display: flex;
+	justify-content: center;
 }
 .players {
 	background: #d2cca1;
@@ -57,7 +72,7 @@
 	flex-direction: row-reverse;
 }
 .show-circle {
-	background: #dbd4d3;
+	background: #f6ae2d;
 	height: 15px;
 	width: 15px;
 	margin: auto 5px;
@@ -69,7 +84,7 @@
 	height: 15px;
 	width: 15px;
 	margin: auto 5px;
-	border: solid thin #dbd4d3;
+	border: solid thin #f6ae2d;
 }
 .unknown-letter {
 	border-bottom: solid #d2cca1;
