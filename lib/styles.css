@@ -18,7 +18,8 @@
 	color: white;
 	letter-spacing: 2px;
 }
-.submit-button, .next-player {
+.submit-button,
+.next-player {
 	font-size: 20px;
 	border-radius: 10px;
 	background: #f6ae2d;
@@ -142,7 +143,6 @@
 }
 .letter-spaces {
 	margin: 0 auto;
-	height: 40vh;
 	width: 80vw;
 	display: flex;
 	flex-wrap: wrap;
@@ -161,9 +161,9 @@
 	align-items: center;
 	justify-content: center;
 }
-.letter-button:hover{
+.letter-button:hover {
 	cursor: pointer;
-	zoom: 1.05;
+	transform: scale(1.2);
 }
 body {
 	margin: 0 auto;

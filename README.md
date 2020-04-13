@@ -5,7 +5,7 @@ Bonus:
     - track scores across games (even if the page is reloaded)
 
 Goals: 
-    MVP:
+    MVP / Bronze:
         - have one player enter in a word
         - if player enters more than one word throw error and do not start game
         - create blank spaces from players word
@@ -15,13 +15,12 @@ Goals:
         - if wrong letter is guessed begin drawing hangman
         - show guesses remaining
         - if player loses reveal chosen word
-    Bronze:
+    Silver:
         - meet MVP
         - add additional option for single player
         - use dictionary api to select random word for player to guess
         - give extra points for fewer missed guesses
-    Silver:
-        - create a challenge mode to see how many words a player can guess correctly in a certain amount of time
     Gold:
+        - create a challenge mode to see how many words a player can guess correctly in a certain amount of time
         - allow players to select different hangman styles
         - add help functionality if player becomes stuck
