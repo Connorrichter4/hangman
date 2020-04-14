@@ -15,8 +15,8 @@ Have a player enter a word that will be guessed during the game. The word is the
   - if correct letter is guessed replace all correct blank spaces with correct letter
   - if wrong letter is guessed begin drawing hangman
   - show guesses remaining
-  - if player loses reveal chosen word
 - Silver:
+  - if player loses reveal chosen word
   - meet MVP
   - add additional option for single player
   - use dictionary api to select random word for player to guess
