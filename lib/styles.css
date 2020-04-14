@@ -25,6 +25,12 @@
 	background: #f6ae2d;
 	cursor: pointer;
 }
+.submit-button:hover,
+.next-player:hover,
+.reset-button:hover,
+.start-button:hover {
+	transform: scale(1.2);
+}
 .start-button {
 	text-decoration: none;
 	font-size: 20px;
@@ -38,6 +44,7 @@
 	border-radius: 10px;
 	background: #e05353;
 	margin: 10px;
+	cursor: pointer;
 }
 .hangman-div {
 	margin: 5px;
@@ -45,7 +52,8 @@
 	justify-content: center;
 }
 .players {
-	background: #d2cca1;
+	color: white;
+	letter-spacing: 2px;
 	height: 20vh;
 	display: flex;
 	justify-content: space-between;
@@ -53,7 +61,7 @@
 	padding: 0 10px;
 	font-size: 20px;
 }
-.playerScore {
+.player-score {
 	display: flex;
 	height: 20vh;
 	align-items: center;
@@ -110,8 +118,8 @@
 }
 .enter-word-form {
 	border-radius: 10px;
-	height: 50%;
-	width: 60%;
+	height: 300px;
+	width: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -120,8 +128,8 @@
 }
 .gameover-alert {
 	border-radius: 10px;
-	height: 50%;
-	width: 60%;
+	height: 300px;
+	width: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
