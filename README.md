@@ -4,6 +4,14 @@
 
 Have a player enter a word that will be guessed during the game. The word is then hidden and represented by blank spaces. The second player then chooses letters, which are revealed if present.
 
+## Examples
+
+Game in Browser
+
+![gameplay-winner](https://user-images.githubusercontent.com/58124052/79284232-a4db4000-7e7f-11ea-8ee5-9d39bebedd5e.png)
+
+![gameplay-guessing](https://user-images.githubusercontent.com/58124052/79284157-6fceed80-7e7f-11ea-9062-097ae758d3ef.png)
+
 ## Goals:
 
 - MVP / Bronze:

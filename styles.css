@@ -79,6 +79,7 @@
 	height: 20px;
 	display: flex;
 	flex-direction: row-reverse;
+	margin-right: 10px;
 }
 .show-circle {
 	background: #f6ae2d;
