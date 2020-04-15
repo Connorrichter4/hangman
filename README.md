@@ -25,13 +25,18 @@ Game in Browser
   - show guesses remaining
 - Silver:
   - if player loses reveal chosen word
-  - meet MVP
   - add additional option for single player
   - use dictionary api to select random word for player to guess
   - give extra points for fewer missed guesses
 - Gold:
   - create a challenge mode to see how many words a player can guess correctly in a certain amount of time
-  - allow players to select different hangman styles \* add help functionality if player becomes stuck
+  - add help functionality if player becomes stuck
+
+## Next Steps
+
+- Show current players turn
+- Add media query for mobile devices
+- Meet silver goal
 
 ## Tech Used
 
